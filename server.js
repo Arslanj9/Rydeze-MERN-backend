@@ -15,7 +15,7 @@ app.use(express.json());
 // CORS Configuration
 // const allowedOrigins = ['https://rydpool.com', 'https://www.rydpool.com', 'https://localhost:5000', 'https://localhost:5173']; // Add your domain and local development origin
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://rydeze-mern-backend.onrender.com',
   credentials: true, // Allow cookies if needed
 }));
 
